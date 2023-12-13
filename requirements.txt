@@ -51,3 +51,5 @@ validators==0.22.0
 watchdog==3.0.0
 zipp==3.17.0
 moviepy==1.0.2
+libgl1-mesa-glx
+libglib2.0-0
