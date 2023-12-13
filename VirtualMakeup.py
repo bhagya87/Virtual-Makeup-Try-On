@@ -338,6 +338,12 @@ elif selected_option == "Eyeliners":
         #st.image(image, channels="BGR", caption="Uploaded Image", use_column_width=True)
         eyeLiner(image)
     
+print("Attempting to import cv2...")
+try:
+    import cv2
+    print("cv2 imported successfully.")
+except Exception as e:
+    print(f"Error importing cv2: {e}")
 
 
 
