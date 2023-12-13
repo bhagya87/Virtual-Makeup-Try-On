@@ -1,3 +1,7 @@
+import os
+os.system("bash setup.sh")
+import cv2
+
 import streamlit as st
 import cv2
 import numpy as np
